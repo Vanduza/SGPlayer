@@ -61,7 +61,7 @@
         sonicSetSpeed(self->_sonic, self->_speed);
         sonicSetPitch(self->_sonic, self->_pitch);
         sonicSetRate(self->_sonic, self->_rate);
-        sonicSetRate(self->_sonic, self->_volume);
+        sonicSetVolume(self->_sonic, self->_volume);
     }
     return YES;
 }
